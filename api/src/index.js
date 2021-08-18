@@ -6,5 +6,5 @@ app.get("/test", (req, res) => {
 });
 
 app.listen(3000, () => {
-	console.log("Started api service")
+	console.log("Started api service");
 });

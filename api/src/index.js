@@ -22,7 +22,7 @@ const startServer = () => {
 		const silence = new Post({ name: "Silence" });
 		silence.save(function(err, savedSilence) {
 			if (err) return console.error(err);
-			console.log('savedSilence', savedSilence);
+			console.log('savedSilence with volumes', savedSilence);
 		})
 	});
 };

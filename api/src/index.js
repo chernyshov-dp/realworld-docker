@@ -28,7 +28,7 @@ const startServer = () => {
 };
   
 app.get("/test", (req, res) => {
-	res.send("Our api server is worcking correctly");
+	res.send("Our api server is working correctly");
 })
   
 connectDb()

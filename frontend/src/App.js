@@ -15,7 +15,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload. Change from Docker.
-            We are in dev!
+            Hello from web sockets!
         </p>
         <a
           className="App-link"
